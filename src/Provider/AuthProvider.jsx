@@ -18,16 +18,16 @@ const AuthProvider = ({ children }) => {
         return signInWithEmailAndPassword(auth, email, password);
     }
 
-    // const logOut = () =>{
-    //     return signOut(auth);
-    // }
+    const logOut = () =>{
+        return signOut(auth);
+    }
 
     const authInfo = {
         user,
         loading,
         createUser,
-        signIn
-        //logOut
+        signIn,
+        logOut
     }
 
     // useEffect(() => {
