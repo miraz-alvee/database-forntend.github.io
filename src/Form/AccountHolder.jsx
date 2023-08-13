@@ -550,6 +550,103 @@ const AccountHolder = () => {
                             </div>
                         </form>
 
+
+                    </div>
+                </div>
+                <div className="bg-gray-200 shadow-md mt-5">
+                    <div className="max-w-7xl px-4 py-2">
+                        <form>
+                            <div className="mb-4 mt-4">
+                                <label htmlFor="name" className="block mb-1 font-medium">
+                                    Bank Name
+                                </label>
+                                <input
+                                    type="text"
+                                    id="name"
+                                    className="w-full px-3 py-2 border rounded-md focus:ring focus:ring-blue-300"
+                                    placeholder="Bank name"
+                                />
+                            </div>
+                            <div className="mb-4">
+                                <label htmlFor="fatherName" className="block mb-1 font-medium">
+                                    Branch Name
+                                </label>
+                                <input
+                                    type="text"
+                                    id="fatherName"
+                                    className="w-full px-3 py-2 border rounded-md focus:ring focus:ring-blue-300"
+                                    placeholder="Branch name"
+                                />
+                            </div>
+
+                            <div className='flex justify-around mt-5'>
+                                <div className="mb-4">
+                                    <label htmlFor="mobile" className="block mb-1 font-medium">
+                                        Account Number
+                                    </label>
+                                    <input
+                                        type="tel"
+                                        id="mobile"
+                                        className="w-full px-3 py-2 border rounded-md focus:ring focus:ring-blue-300"
+                                        placeholder="Account number"
+                                    />
+                                </div>
+                                <div className="mb-4">
+                                    <label htmlFor="tel" className="block mb-1 font-medium">
+                                        Routing Number
+                                    </label>
+                                    <input
+                                        type="tel"
+                                        id="tel"
+                                        className="w-full px-3 py-2 border rounded-md focus:ring focus:ring-blue-300"
+                                        placeholder="Routing number"
+                                    />
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div className="bg-gray-200 shadow-md mt-5 mb-8">
+                    <p className='font-mono text-2xl'>Declaration : It is hereby declared that all the above mentioned information in customer account information form are true & valid.
+                    </p>
+                    <div className="max-w-7xl px-4 py-2">
+                        <div className="overflow-x-auto">
+                            <table className="table table-zebra">
+                                {/* head */}
+                                <thead>
+                                    <tr>
+                                        <th></th>
+                                        <th></th>
+                                        <th>Name</th>
+                                        <th>Signature With Date</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    {/* row 1 */}
+                                    <tr>
+                                        <th>1</th>
+                                        <td>First Account Holder</td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                    {/* row 2 */}
+                                    <tr>
+                                        <th>2</th>
+                                        <td>Second Account Holder</td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                    {/* row 3 */}
+                                    <tr>
+                                        <th>3</th>
+                                        <td>Officer/Manager/Branch In-charge</td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+
                     </div>
                 </div>
             </div>
