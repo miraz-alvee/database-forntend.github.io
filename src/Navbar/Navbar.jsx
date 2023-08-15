@@ -22,13 +22,16 @@ const Navbar = () => {
                         <li>
                             <Link className='text-2xl font-medium ' to='/'>Home</Link>
                         </li>
+                        <li>
+
                         {user ?
-                            <button onClick={handleLogOut} className="btn btn-error">Logout</button>
-                            :
+                                <button onClick={handleLogOut} className="btn btn-error">Logout</button>
+                                :
                             <Link className='text-2xl font-medium' to="/login">
-                                <button className="btn btn-error">Logout</button>
+                                <button className="btn btn-error">Login</button>
                             </Link>
                         }
+                        </li>
                     </ul>
                 </div>
             </div>
